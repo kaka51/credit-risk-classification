@@ -4,14 +4,18 @@
 
 Explain the purpose of the analysis.
 * The purpose of the analysis is to train and evaluate the model for the loan risk. 
+
 Explain what financial information the data was on, and what you needed to predict.
 * The dataset includes loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, dergatory_marks, total_debt and load_status. Base on the availabe data, we need to predict the accuracy of load_status of 0 = healthy loan and 1 = risky loan for each loan. 
+
 Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * The dataset includes 75036 healthy loan and 2500 risky loan.
+
 Describe the stages of the machine learning process you went through as part of this analysis.
 * 1. split the dataset into train and test
 * 2. create and predict logistic regression model with the original data
 * 3. create and predict logistic regression model with the sampled training data
+
 Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 * We used logisticregression method to predict the outcomes from dataset starting with cleaning the data and splitting it into test and train subset, then use labeled data to train the model and then validate the data to test how well the model is able to predict labels, and lastly predict label for unclassified data. 
 
