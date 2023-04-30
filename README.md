@@ -1,6 +1,4 @@
-# Credit Risk
-
-## Overview of the Analysis
+# Credit Risk Analysis
 
 Explain the purpose of the analysis.
 * The purpose of the analysis is to train and evaluate the model for the loan risk. 
