@@ -37,8 +37,4 @@ Description of Model 2 Accuracy, Precision, and Recall scores.
 
 
 ## Summary
-
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )If you do not recommend any of the models, please justify your reasoning.
-
  * The result from the logistic regression model with the resampled training data using RandomOverSampler function performs better based on the 99% accuracry, precision, and recall classification report for both healthy '0' and risky '1' loan status. Logistic regression model with orginal data is also good, but it was a bit less accurate compared to the resampled training data. Since the purpose of this analysis is to evaluate the model for the loan risk, both '1' and '0' are equally important for prediction. 
